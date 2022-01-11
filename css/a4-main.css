@@ -1,0 +1,62 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Preet Dave    Student ID: 151738200   Date: 2021-11-18 
+* 
+********************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Petemoss&display=swap");
+body {
+  background-color: rgb(91, 231, 238);
+}
+
+nav,
+footer {
+  background-color: rgb(85, 12, 211);
+  text-align: center;
+  font-family: "Petemoss";
+  font-size: large;
+}
+
+header {
+  background-color: rgb(44, 233, 243);
+  text-align: left;
+  padding: 2px;
+  font-style: bold;
+  font-weight: 600;
+}
+
+h1.app-title {
+  color: rgb(80, 3, 48);
+  font-family: "Petemoss";
+  text-align: center;
+  font-size: 50px;
+  margin: 12px
+}
+
+table.main-table-top th {
+  background-color: rgb(166, 239, 243);
+  border: 1px solid rgb(5, 39, 88);
+  height: 5px;
+  padding: 10px;
+  text-align: left;
+}
+
+table.main-table td {
+  background-color: rgb(166, 239, 243);
+  border: 1px solid rgb(7, 20, 108);
+  padding: 15px;
+  font-style: bold;
+}
+
+table.main-table p span {
+  font-weight: 600;
+  text-align: left;
+}
